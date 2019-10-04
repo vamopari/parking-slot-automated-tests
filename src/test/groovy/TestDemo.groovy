@@ -4,5 +4,6 @@ import spock.lang.Specification
 class TestDemo extends Specification {
 	
 	@Shared String basepath = "http://127.0.0.1:8000/api";
-	
+	@Shared String access_token = "";
+	@Shared def slot
 }
